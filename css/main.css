@@ -1,0 +1,129 @@
+/* 
+headder background: #FFFFFF;
+body background: #E5E5E5;
+team background: #F5F4FA;
+footer background: #2F303A;
+заголовки  background: #212121;
+описание background: #757575;
+logo background: #2196F3;
+background: #2F303A;
+
+
+*/
+
+:root {
+  --main-color_body: #E5E5E5;
+  --main-color-title: #212121;  
+  --main-color-text: #757575;
+  --main-color-header: #FFFFFF;
+  --main-color-footer: #2F303A;
+}
+
+
+/* body */
+body {
+  background-color: var(--main-color_body);
+  color: var(--main-color-title);
+  font-family: Roboto, sans-serif;
+}
+
+/* header */
+header {
+  background-color: var(--main-color-header);
+    
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.3;
+}
+
+.link:hover, .link:focus {
+  color: #2196F3;
+}
+
+.logo {
+  color: #000000;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.92;
+}
+
+.logo .logo-word {
+  color: #2196F3;
+}
+
+/* footer */
+footer {
+  background-color: var(--main-color-footer);
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.address {
+  color: var(--main-color-header);
+  
+  font-size: 14px;
+  line-height: 1.71;
+}
+  
+.info {
+  color: rgba(255, 255, 255, 0.6);
+
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+/* main */
+.hero  {
+  color: var(--main-color-header);
+  background-color: #2F303A;
+ 
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center
+}
+
+.button {
+  color: var(--main-color-header);
+  background-color: #2196F3;
+ 
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.tasks .main-task {
+  color: var(--main-color-text);
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.title-team {
+  text-align: center;
+}
+
+.team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+.team-job {
+  color: var(--main-color-text);
+
+  font-size: 16px;
+  line-height: 1.2;
+}
+
