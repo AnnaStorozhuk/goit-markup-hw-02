@@ -27,8 +27,26 @@ body {
   font-family: Roboto, sans-serif;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+ul {
+  list-style: none;
+}
+
 /* header */
-header {
+.page-header {
   background-color: var(--main-color-header);
     
   font-weight: 500;
@@ -53,7 +71,7 @@ header {
 }
 
 /* footer */
-footer {
+.basement {
   background-color: var(--main-color-footer);
 
   font-weight: 400;
@@ -87,6 +105,15 @@ footer {
 }
 
 .button {
+  color: var(--main-color-header);
+  background-color: #2196F3;
+ 
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+}
+
+.hero-link {
   color: var(--main-color-header);
   background-color: #2196F3;
  
