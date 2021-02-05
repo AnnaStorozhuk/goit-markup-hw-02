@@ -24,10 +24,11 @@ hover,focus: #2196F3
 
 
 /* body */
-body {
+.body {
   background-color: var(--main-color_body);
   color: var(--main-color-title);
   font-family: Roboto, sans-serif;
+
 }
 
 .visually-hidden {
@@ -59,7 +60,9 @@ ul {
 
 .link {
   color: var(--main-color-title);
+  text-decoration: none;
 }
+
 .link:hover, .link:focus {
   color: var(--hover-focus);
 }
@@ -70,9 +73,10 @@ ul {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.92;
+  text-decoration: none;
 }
 
-.logo .logo-word {
+.logo-word {
   color: var(--hover-focus);
 }
 
@@ -90,6 +94,7 @@ ul {
   
   font-size: 14px;
   line-height: 1.71;
+  font-style: normal;
 }
   
 .info {
@@ -98,12 +103,23 @@ ul {
   font-size: 14px;
   line-height: 1.71;
 }
+.logo-basement {
+  color: #FFFFFF;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.92;
+  text-decoration: none;
+}
 
 /* main */
-.hero  {
+.hero,
+.title-hero {
   color: var(--main-color-header);
   background-color: #2F303A;
  
+  font-family: 'Roboto', sans-serif;
+
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -117,6 +133,7 @@ ul {
   font-weight: bold;
   font-size: 16px;
   line-height: 1.87;
+ 
 }
 
 .hero-link {
@@ -126,6 +143,7 @@ ul {
   font-weight: bold;
   font-size: 16px;
   line-height: 1.87;
+  text-decoration: none;
 }
 
 .title {
@@ -133,6 +151,15 @@ ul {
   font-size: 36px;
   line-height: 1.2;
   text-align: center;
+
+  text-transform: uppercase;
+}
+.title-tasks {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+
+  text-transform: uppercase;
 }
 
 .main-task {
@@ -144,7 +171,6 @@ ul {
 }
 
 .title-team {
-  text-align: center;
   background-color: var(--team-bcg);
 }
 
@@ -169,7 +195,12 @@ background-color: var(--hover-focus);
 .btn {
   color: var(--main-color-title);
   background-color: var(--team-bcg);
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
 }
+
 .title-works {
   color: var(--main-color-title);
   font-weight: 700;
