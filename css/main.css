@@ -7,6 +7,7 @@ footer background: #2F303A;
 описание background: #757575;
 logo background: #2196F3;
 background: #2F303A;
+hover,focus: #2196F3
 
 
 */
@@ -17,6 +18,8 @@ background: #2F303A;
   --main-color-text: #757575;
   --main-color-header: #FFFFFF;
   --main-color-footer: #2F303A;
+  --hover-focus: #2196F3;
+  --team-bcg: #F5F4FA;
 }
 
 
@@ -58,7 +61,7 @@ ul {
   color: var(--main-color-title);
 }
 .link:hover, .link:focus {
-  color: #2196F3;
+  color: var(--hover-focus);
 }
 
 .logo {
@@ -70,7 +73,7 @@ ul {
 }
 
 .logo .logo-word {
-  color: #2196F3;
+  color: var(--hover-focus);
 }
 
 /* footer */
@@ -109,7 +112,7 @@ ul {
 
 .button {
   color: var(--main-color-header);
-  background-color: #2196F3;
+  background-color: var(--hover-focus);
  
   font-weight: bold;
   font-size: 16px;
@@ -118,7 +121,7 @@ ul {
 
 .hero-link {
   color: var(--main-color-header);
-  background-color: #2196F3;
+  background-color: var(--hover-focus);
  
   font-weight: bold;
   font-size: 16px;
@@ -132,7 +135,7 @@ ul {
   text-align: center;
 }
 
-.tasks .main-task {
+.main-task {
   color: var(--main-color-text);
 
   font-weight: 400;
@@ -142,6 +145,7 @@ ul {
 
 .title-team {
   text-align: center;
+  background-color: var(--team-bcg);
 }
 
 .team-name {
@@ -157,3 +161,18 @@ ul {
   line-height: 1.2;
 }
 
+.btn:hover, .btn:focus {
+color: var(--main-color-header) ;
+background-color: var(--hover-focus);
+}
+
+.btn {
+  color: var(--main-color-title);
+  background-color: var(--team-bcg);
+}
+.title-works {
+  color: var(--main-color-title);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
