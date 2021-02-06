@@ -13,7 +13,7 @@ hover,focus: #2196F3
 */
 
 :root {
-  --main-color_body: #E5E5E5;
+  --main-color-body: #E5E5E5;
   --main-color-title: #212121;  
   --main-color-text: #757575;
   --main-color-header: #FFFFFF;
@@ -25,7 +25,7 @@ hover,focus: #2196F3
 
 /* body */
 .body {
-  background-color: var(--main-color_body);
+  background-color: var(--main-color-body);
   color: var(--main-color-title);
   font-family: Roboto, sans-serif;
 
@@ -61,6 +61,11 @@ ul {
 .link {
   color: var(--main-color-title);
   text-decoration: none;
+  font-family: Roboto, sans-serif;
+}
+
+.nav {
+  color: var(--main-color-text);
 }
 
 .link:hover, .link:focus {
@@ -87,6 +92,7 @@ ul {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+ 
 }
 
 .address {
@@ -95,6 +101,7 @@ ul {
   font-size: 14px;
   line-height: 1.71;
   font-style: normal;
+  text-decoration: none;
 }
   
 .info {
@@ -102,6 +109,7 @@ ul {
 
   font-size: 14px;
   line-height: 1.71;
+  text-decoration: none;
 }
 .logo-basement {
   color: #FFFFFF;
@@ -124,6 +132,9 @@ ul {
   font-size: 44px;
   line-height: 1.36;
   text-align: center
+}
+.team {
+  background-color: var(--team-bcg);
 }
 
 .button {
@@ -154,6 +165,7 @@ ul {
 
   text-transform: uppercase;
 }
+
 .title-tasks {
   font-weight: 700;
   font-size: 14px;
@@ -199,6 +211,7 @@ background-color: var(--hover-focus);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
+  font-family: Roboto, sans-serif;
 }
 
 .title-works {
